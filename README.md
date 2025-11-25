@@ -1,5 +1,7 @@
 # Protech_Vmine# 🚀 Protech — Full-Stack E-Commerce Platform
 
+![image](https://github.com/user-attachments/assets/c321aee5-f1a8-4b08-89b6-3ae0b80a70a6)
+
 **Built with:** Flask (Backend) | React.js (Frontend) | MySQL Database | Third-party APIs
 
 ---
