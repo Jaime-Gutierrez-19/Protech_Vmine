@@ -55,7 +55,7 @@ You'll need:
 ### Backend Setup
 
 Clone this repository
-git clone https://github.com/Jaime-Gutierrez-19/protech-ecommerce
+git clone https://github.com/Jaime-Gutierrez-19/Protech_Vmine.git
 cd protech-ecommerce
 
 Create virtual environment
@@ -110,34 +110,7 @@ Run migrations
 flask db upgrade
 
 
----
 
-## 📁 Project Structure
-
-protech-ecommerce/
-├── backend/
-│ ├── app.py # Flask app entry point
-│ ├── config.py # Configuration
-│ ├── requirements.txt # Python dependencies
-│ ├── models/ # Database models
-│ ├── routes/ # API endpoints
-│ ├── middleware/ # Authentication, CORS
-│ └── migrations/ # Database migrations
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ ├── pages/ # Page components
-│ │ ├── services/ # API calls
-│ │ ├── context/ # State management
-│ │ └── App.js # Main app
-│ ├── package.json
-│ └── .env.example
-├── README.md
-├── .gitignore
-└── .env.example
-
-
----
 
 ## 🔌 API Endpoints
 
