@@ -1,0 +1,163 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    background-color: #0B0F19;
+    border-right: 1px solid rgba(204, 204, 204, 0.16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px;
+    z-index: 1050;
+}
+
+.sidebar p {
+    font-size: 12px;
+    padding: 30px 16px 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.sidebar h3 {
+    padding: 14px 14px 23px;
+}
+.sidebar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 6px 0;
+    border-radius: 8px;
+}
+
+.sidebar li .sidebar-item {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 12px 16px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .navbar-dashboard {
+    background-color: #0B0F19;
+    color: white;
+    text-align: center;
+}
+
+.navbar-dashboard {
+    position: fixed; 
+    display: flex !important;
+    padding: 16px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.16);
+    top: 0;
+    left: 280px; 
+    width: calc(100% - 280px); 
+    z-index: 1000;
+}
+.navbar-dashboard .container {
+    max-width: calc(100% - 280px); 
+}
+
+.dropdownn-menu {
+    padding: 0;
+    margin: 5px 0 0 10px;
+}
+
+.dropdownn-menu li {
+    margin: 8px 0;
+}
+
+.dropdownn-menu li .sidebar-item {
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.dropdownn-menu li:hover {
+    color: white;
+    background-color: rgb(86, 88, 221);
+    border-radius: 8px;
+}
+
+.drop-icon {
+    margin-left: 110px;
+    transition: transform 0.3s ease;
+    font-size: 19px;
+}
+
+.icon-circle {
+    font-size: 5px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.icon-li {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+
+.sidebar ul li:hover {
+    background-color: rgba(99, 101, 241, 0.158);
+    color: rgb(86, 88, 221);
+}
+
+.active {
+    background-color: rgb(86, 88, 221);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(99, 102, 241, 0.9);
+    color: white;
+}
+
+.sidebar ul li a:not(.active):hover {
+    color: rgb(86, 88, 221);
+}
+li .item-dropdown{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-justify:inherit;
+}
+.log-out{
+    color: rgb(86, 88, 221) !important;
+}
+hr{
+    background-color: rgb(86, 88, 221);
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    object-fit: cover;
+}
+.name{
+    color: white;
+    font-size: 15px;
+    padding: 2px 3px;
+    font-weight: 500;
+    display: block;
+}
+small{
+    color: #d1d1d1;
+    padding: 0px 3px ;
+    font-size: 13px;
+}
+.not-hover:hover{
+    background-color:#0B0F19 !important;
+}
+.hover:hover{
+    background-color: rgba(99, 101, 241, 0.158);
+}

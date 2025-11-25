@@ -1,0 +1,112 @@
+.offcanvas{
+    width: 560px;
+    background-color: #191b24;
+    color: white;
+}
+.offcanvas li{
+    width: auto;
+    background-color: #191b24;
+    color: white;
+}
+.border-div{
+    width: auto;
+    background-color: #191b24;
+    color: white;
+    border-bottom:1px solid #6b6b6b;
+    display: flex !important;
+}
+.border-div span{
+    font-size: 16px;
+    color: white;
+}
+.item-cart{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar-nav a{
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.title{
+    font-size: 29px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.icon-board{
+    margin: 0px 5px 3px 0px;
+}
+.bgd-black p{
+    margin: 0px;
+}
+
+.input-amount{
+    margin-left: 0px !important;
+    height: 33px;
+    max-width: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    background-color: #10141E;
+    border-radius: 0px;
+    color: white;
+}
+.input-amount:focus{
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    outline: none;
+}
+.button-input{
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    width: 28px;
+    height: 33px;
+    padding: 0px 0px 2px 0px;
+    background-color: #10141E;
+    color: white;
+} 
+.navbar{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.16)
+}
+.bgd-black{
+    background-color: #100F19 !important;
+}
+.main-button{
+    padding: 10px 24px 10px 24px;
+    border: none;
+    color: white;
+    background-color: rgb(86, 88, 221);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-button:hover{
+    background-color: #4044EE;
+}
+.navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.904);;
+    font-size: 14.7px;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(86, 88, 221);
+}
+.hover-li li:hover{
+    background-color: rgb(38 39 76);
+    border-radius: 9px;
+}
+.icon-nav{
+    cursor: pointer;
+    font-size: 13px;
+}
+.icon-nav:hover{
+    color:rgb(86, 88, 221) !important;    
+}
+.icon-search{
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #ffffffbd;
+    cursor: pointer;
+}
+.white-text{
+    color: rgba(255, 255, 255, 0.904);
+}

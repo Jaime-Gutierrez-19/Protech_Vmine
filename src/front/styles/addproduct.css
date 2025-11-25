@@ -1,0 +1,89 @@
+
+.purple-button{
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+    padding: 9px 16px;
+    border: none;
+    background-color: rgb(86, 88, 221);
+    color: rgba(255, 255, 255, 0.932);
+    border-radius: 6px;
+    transition: background-color 270ms;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.purple-button:hover{
+    background-color: #4044EE;
+}
+h1 p{
+    margin-bottom: 12px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+h2{
+    color: white;
+}
+h5{
+    font-weight: 500;
+    font-size: 18.5px;
+    padding-left: 0px;
+}
+.card-black input{
+    width: 100%;
+    background-color: #10141E;
+    border-color: rgba(255, 255, 255, 0.158);
+    padding: 8px 16px;
+    border-radius: 9px;
+    color: rgba(255, 255, 255, 0.808);
+}
+.card-black input:focus{
+    background-color: #10141E;
+    caret-color: white;
+    border-color: rgba(255, 255, 255, 0.356);
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.808);
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.form-control {
+    max-height: 470px;
+    background-color: #10141E;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.158);
+    border-radius: 9px;
+}
+.form-control:focus {
+    max-height: 470px;
+    background-color: #10141E;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.356);
+    box-shadow: none;
+    border-radius: 9px;
+}
+input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(86, 88, 221);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+  
+  /* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+    background-color: #4044EE;
+}
+.details-order p{
+    margin: 0px;
+}

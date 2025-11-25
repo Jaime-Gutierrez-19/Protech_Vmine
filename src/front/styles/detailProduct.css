@@ -1,0 +1,139 @@
+.ProductDetail {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.ProductDetail img {
+    width: 100%;
+    height: 471px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Detalles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Detalles li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.Detalles li:hover {
+    background-color: #f5f5f5;
+}
+
+.Detalles h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.904);
+    margin-bottom: 20px;
+}
+
+
+.nav-link {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.904);
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    color: rgb(86, 88, 221);
+    border-bottom: 2px solid rgb(86, 88, 221);
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.product-info a {
+    font-size: 16.2px;
+    color: rgb(86, 88, 221) !important;
+}
+
+.product-info h1{
+    margin-top: 8px;
+    font-size: 33px;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.product-info h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.904);
+    margin-top: 31px;
+    margin-bottom: 28px;
+}
+.product-info strong{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.904);
+}
+.product-info span{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.product-info hr{
+    background-color: rgb(216 216 216);
+    height: 2px;
+    margin: 26px 0px 26px 0px;
+}
+
+.product-info .input-group input{
+    width: 46px;
+}
+.product-info .cart{
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.product-info li {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.904);
+    margin-bottom: 5px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.904);
+    margin-top: 10px;
+}
+
+
+.form-control-input {
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.add-cart{
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+    padding: 9px 30px;
+    border: none;
+    background-color: rgb(86, 88, 221);
+    color: rgba(255, 255, 255, 0.932);
+    border-radius: 6px;
+    transition: background-color 270ms;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 51px 0px 4px 0px;
+    
+}
+.add-cart:hover{
+    background-color: #4044EE;
+}
+.product-details p{
+    font-size: 16px;
+}

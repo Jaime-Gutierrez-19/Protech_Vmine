@@ -1,0 +1,67 @@
+
+.cart-list{
+    width: 100%;
+    background-color: #161a25;
+    color: white;
+}
+.cart-list li{
+    background-color: #161a25;
+    color: white;
+}
+.item-cart{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+item-cart p{
+    font-size: 16px !important;
+    margin: 0px !important;
+}
+.input-amount{
+    margin-left: 0px !important;
+    height: 33px;
+    max-width: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    background-color: #10141E;
+    border-radius: 0px;
+    color: white;
+    padding: 0px !important;
+}
+.input-amount:focus{
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    outline: none;
+}
+.button-input{
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    width: 28px;
+    height: 33px;
+    padding: 0px 0px 2px 0px;
+    background-color: #10141E;
+    color: white;
+} 
+.button-input:hover{
+    background-color: rgb(30, 30, 48);
+} 
+.order-sumary{
+    width: 390px;
+}
+.order-sumary h4{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.order-sumary hr{
+    margin: 0px;
+    background-color: rgb(255 255 255 / 62%);
+}
+.order-sumary h4, h5, h6{
+    padding: 0px 12px;
+}
+.order-sumary h6{
+    padding: 0px 12px;
+}

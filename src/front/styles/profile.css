@@ -1,0 +1,63 @@
+.card {
+    border-radius: 10px;
+    background-color: #222428;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(24, 20, 20, 0.1);
+    overflow: hidden;
+}
+
+.btn-group .btn-purple {
+    background-color: rgb(86, 88, 221);
+    color: #fff;
+    outline: none;
+    border: 1px solid rgb(86, 88, 221);
+    box-shadow: none;
+}
+.btn-group .btn-purple:active {
+    background-color: rgb(86, 88, 221);
+    color: #fff;
+    outline: none;
+    border: 1px solid rgb(86, 88, 221);
+    box-shadow: none;
+}
+.btn-group .btn-none:hover {
+    background-color: rgb(86, 88, 221);
+    color: #fff;
+    outline: none;
+}
+.btn-group .btn-none {
+    border: 1px solid rgb(86, 88, 221);
+    outline: none;
+    color: white;
+}
+.profile input[type="file"] {
+    display: none;
+}
+.profile input[type="file"] + label {
+    background-color: rgb(86, 88, 221);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.profile input[type="file"] + label:hover {
+    background-color: #110f13;
+}
+.profile h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f8f7f8;
+}
+.profile p {
+    margin-bottom: 8px;
+    color: #ddd;
+}
+.spinner-border {
+    color: rgb(86, 88, 221);
+}

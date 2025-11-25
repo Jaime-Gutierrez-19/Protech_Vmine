@@ -1,0 +1,85 @@
+
+
+.card {
+    border-radius: 10px;
+    background-color: #282C34;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #6a0dad;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-group .btn {
+    flex: 1;
+    border-radius: 0;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-group .btn-primary {
+    background-color: #6a0dad;
+    color: #fff;
+}
+
+.btn-group .btn-outline-primary {
+    border: 1px solid #6a0dad;
+    color: #6a0dad;
+}
+
+.btn-group .btn-outline-primary:hover {
+    background-color: #6a0dad;
+    color: #fff;
+}
+
+img.rounded-circle {
+    border: 3px solid #6a0dad;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="file"] + label {
+    background-color: #6a0dad;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="file"] + label:hover {
+    background-color: #4e0a91;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f8f7f8;
+}
+
+p {
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+.spinner-border {
+    color: #6a0dad;
+}
